@@ -83,6 +83,7 @@ server.get('/products/', (req, res) => {
 server.post('/product', checkProductExists, (req, res) => {
     const { name } = req.body;
     products.push(name);
+
     return res.json(products);
 });
 
