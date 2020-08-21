@@ -1,0 +1,18 @@
+{
+  "name": "challenge-01",
+  "version": "1.0.0",
+  "description": "Create an application to store projects and their tasks  using Express.",
+  "main": "index.js",
+  "author": "Marllon Drion - drion.dev",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
